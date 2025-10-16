@@ -1,4 +1,4 @@
-# dash_finance_dashboard.py
+# dash_finance_dashboard_app.py
 """
 Dash Financial Dashboard — Dixon Technologies vs Honeywell Automation
 Single-file Dash app (Plotly + Dash + Pandas).
@@ -228,5 +228,6 @@ def update_charts(company, group, year_range):
 if __name__ == "__main__":
     # Option 1: Debug mode off (safe)
     app.run(debug=False)
+
 
 
